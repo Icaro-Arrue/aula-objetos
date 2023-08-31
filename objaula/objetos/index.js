@@ -110,3 +110,49 @@ lotaCarrinho = (objeto) => {
 lotaCarrinho(sacolao[0])
 lotaCarrinho(sacolao[1])
 lotaCarrinho(sacolao[2])
+
+estoque = (fruta) =>{
+    let estoqueSacolao = fruta.disponibilidade = false
+    console.log(estoqueSacolao)
+}
+
+estoque(sacolao[1])
+
+/*const 
+funcao = () =>{
+    let nome = prompt("Qual é o seu nome?")
+    let idade = prompt("Qual a sua idade?")
+    let profissao = prompt("Qual a sua profissão?")
+    const objeto = {
+        nome,
+        idade,
+        profissao
+    }
+    console.log(objeto)
+}
+
+funcao()
+
+*/
+
+/*funcaoDesafio = () =>{
+    const filme = {
+        nome: "Up: Altas Aventuras",
+        anoDeLancamento: 2009
+    }
+    const filmeDois = {
+        nome: "A noite do Jogo",
+        anoDeLancamento: 2018
+    }
+    let lancamento = filme.anoDeLancamento < filmeDois.anoDeLancamento
+    let frase = `O filme ${filme.nome} foi lançado antes de ${filmeDois.nome}? ${lancamento}`
+    console.log(frase)
+
+    let lanca = filme.anoDeLancamento == filmeDois.anoDeLancamento
+    let frase2 = `O filme ${filme.nome} foi lançado no mesmo ano de ${filmeDois.nome}? ${lanca}`
+    console.log(frase2)
+}
+funcaoDesafio()
+*/
+
+
